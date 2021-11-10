@@ -1,0 +1,27 @@
+body{
+    width: 1200px;
+    margin:auto;}
+
+.main{ background-image: url("header.jpg");
+    padding:25px ;
+    font-size: 30px;
+    color: white;
+    text-decoration-line: none;}
+
+
+nav{
+    background-color: black;}
+
+nav a{
+    color: yellow;
+    font-size: 15px;
+    text-decoration-line: none;}
+
+header{
+    font-size: 25px;
+    text-decoration-line: underline;}
+
+article {
+    background-color: lightgrey;
+    margin: 5px;
+    padding: 10px;}
