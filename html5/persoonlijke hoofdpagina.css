@@ -1,0 +1,24 @@
+body{
+    width: auto;
+    margin: auto;
+    padding: 50px;
+    background-color: dodgerblue;
+}
+
+.main{
+    background-image: url("fotomainpersoonlijk.jpg");
+    padding: 25px;
+    image-resolution: from-image;
+}
+header{
+    font-size: 25px;
+}
+
+nav{width: auto;
+    background-color: black;}
+
+nav a{
+    color: white;
+    font-size: 20px;
+    word-spacing: 25px;
+}
