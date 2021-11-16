@@ -19,8 +19,15 @@ header{
 nav{width: auto;
     background-color: black;}
 
-nav a{
+nav a {
     color: white;
     font-size: 20px;
     word-spacing: 25px;
+}
+.foto{
+    background-image: url("foto pc.jpg");
+    padding: 25px;
+    width: auto;
+    height: auto;
+
 }
