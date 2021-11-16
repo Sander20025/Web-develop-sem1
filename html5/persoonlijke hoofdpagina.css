@@ -1,17 +1,19 @@
 body{
-    width: auto;
+    width: 1280px;
     margin: auto;
     padding: 50px;
-    background-color: dodgerblue;
+    background-color: lightgray;
 }
 
 .main{
-    background-image: url("fotomainpersoonlijk.jpg");
+    background-image: url("header.jpg");
     padding: 25px;
-    image-resolution: from-image;
+    width: 1280px;
 }
 header{
     font-size: 25px;
+    color: white;
+    background-repeat: no-repeat;
 }
 
 nav{width: auto;
