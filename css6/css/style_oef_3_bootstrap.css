@@ -1,0 +1,36 @@
+
+.fakeimg {
+    height: 200px;
+    background: #aaa;
+}
+
+#backgrounddoge {
+    background-image: url(../img/cover.555740.2400x600.png);
+    background-repeat: repeat;
+    height: 300px;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+
+#backgroundend{
+    background-image: url(../img/fren-band-peepo-band.gif);
+    background-repeat: repeat;
+    height: 300px;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+
+#shrekfoto{
+    background-image: url(../img/shrek.png);
+    height: 250px;
+    width: 330px;
+    margin-bottom: 30px;
+}
+
+#juicewrld {
+    background-image: url();
+    height: 800px;
+    width: 700px;
+}
