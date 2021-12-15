@@ -1,0 +1,83 @@
+/** Volgende CSS gaan we ze geven **/
+.respimg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.nav{
+    display: grid;
+    grid-template-areas: "recept meal learn shop people holiday more" ;
+    cursor: pointer;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#1{
+    grid-area: recept;
+}
+#2{
+    grid-area: meal;
+}
+
+#3{
+    grid-area: learn;
+}
+#4{
+    grid-area: shop;
+}
+#5{
+    grid-area: people;
+
+}
+#6{
+    grid-area: holiday;
+}
+#7{
+    grid-area: more;
+}
+
+.logo{
+    height: 50px;
+}
+.header{
+    border-bottom: solid;
+    border-bottom-color:#ebe8e8;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (max-width: 770px) {
+    .header,.nav{
+        width: 600px;
+    }
+
+
+}
+@media (min-width: 770px)  and (max-width: 1000px){
+    .header,.nav{
+        width: 750px;
+    }
+
+}
+@media (min-width: 1000px) {
+    .header,.nav{
+        width: 980px;
+    }
+
+
+}
+
+
+.mainheader{
+    background-image: url("images/headerimage.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    text-align: center;
+    padding: 10%;
+}
+body{
+    margin: 0;
+    font-family: Helvetica sans-serif;
+}
