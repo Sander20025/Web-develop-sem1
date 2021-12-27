@@ -75,3 +75,14 @@
     color: crimson;
     font-weight: 500;
 }
+
+.info{
+    float: left;
+    padding: 200px;
+    background-color: black;
+    color: crimson;
+}
+.info .text{
+    font-size: 30px;
+    font-weight: 600;
+}
