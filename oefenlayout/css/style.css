@@ -120,3 +120,29 @@ header nav{
 #boxes .box img{
     width: 140px;
 }
+/*media*/
+@media (max-width: 768px) {
+    header #branding,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    #boxes .box
+    {
+        float: none;
+        padding-bottom:20px ;
+        width: 100%;
+    }
+
+    #showcase h1{
+        margin-top: 40px;
+    }
+    #newsletter button{
+        display: block;
+        width: 100%;
+    }
+    #newsletter form input[type="email"]{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
