@@ -1,0 +1,66 @@
+body{
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* header */
+header {
+    padding-top: 200px;
+    max-width: 100%;
+    background-color: black;
+    padding-bottom: 200px;
+    border: none;
+}
+/* header tekst */
+.home .max-width{
+    margin: auto 0 auto 40px
+}
+.home .home-content .text-1{
+    font-size: 27px;
+    color: white;
+}
+.home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+    color: white;
+}
+.home .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+    color: white;
+}
+.home .home-content .text-3 span {
+    color: crimson;
+    font-weight: 500;
+}
+
+/* navigatie */
+nav{
+    padding-top: 20px;
+    margin: 0;
+    background-color: crimson;
+
+}
+.navbar ul{
+    padding: 20px;
+}
+
+.navbar li{
+    display: inline-block;
+    float: left;
+
+
+}
+.navbar li a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Ubuntu sans-serif;
+    text-decoration: none;
+    margin: 30px;
+
+}
+
